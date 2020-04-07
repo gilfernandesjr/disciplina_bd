@@ -1,0 +1,11 @@
+SHOW DATABASES;
+
+USE world;
+
+SHOW TABLES;
+
+SHOW COLUMNS FROM city;
+
+SELECT * FROM city;
+
+SELECT * FROM world.city WHERE CountryCode="AFG";
